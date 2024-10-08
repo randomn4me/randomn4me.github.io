@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on $HOME</title>
+    <link>http://localhost:1313/tags/writing/</link>
+    <description>Recent content in Writing on $HOME</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 09:01:36 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why?</title>
+      <link>http://localhost:1313/posts/why/</link>
+      <pubDate>Mon, 07 Oct 2024 09:01:36 +0200</pubDate>
+      <guid>http://localhost:1313/posts/why/</guid>
+      <description>&lt;p&gt;This story begins with me wanting to write for my own (and others) a long time ago.&#xA;One may ask&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Why? Writing comes natural, if you sought-after?&amp;rdquo;&#xA;but for me, it never worked.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;To this question I can only give you the following answer.&#xA;I always got caught in some kind of perfectionism, i.e., I never found the right tool for me, which prevented me from starting all along.&#xA;Once I tried &lt;a href=&#34;https://gohugo.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt;, but I was not happy with it.&#xA;Then I tried to build my own static-site-generator but stopped half-way through and deleted, what I had.&#xA;Most of the time I wanted to share all the nerdy tech tools I tinkered with, but without a platform to share, it never had been.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

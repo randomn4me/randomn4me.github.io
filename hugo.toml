@@ -1,0 +1,74 @@
+baseURL = 'https://audacis.net/'
+languageCode = 'en-us'
+title = '$HOME'
+theme = "hugo-coder"
+
+[pagination]
+  pagerSize = 10
+
+[services]
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Philipp Kühn"
+  info = "Computer Scientist and Tech Enthusiast"
+  description = "Personal Writing Portal of Philipp Kühn"
+  keywords = "blog,tech,personal"
+  #avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  #faviconSVG = "/img/favicon.svg"
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/randomn4me/"
+
+[[params.social]]
+  name = "ORCID"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 2
+  url = "https://orcid.org/0000-0002-1739-876X"
+
+[[params.social]]
+  name = "ORCID"
+  icon = "fa-solid fa-file-user"
+  weight = 3
+  url = "https://orcid.org/0000-0002-1739-876X"
+
+# Menu links
+[[menu.main]]
+  name = "/now"
+  weight = 1
+  url = "now/"
+[[menu.main]]
+  name = "/about"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "/posts"
+  weight = 3
+  url  = "posts/"

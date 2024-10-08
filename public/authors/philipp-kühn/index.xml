@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philipp Kühn on Website of Philipp Kühn</title>
+    <link>http://localhost:1313/authors/philipp-k%C3%BChn/</link>
+    <description>Recent content in Philipp Kühn on Website of Philipp Kühn</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 09:01:36 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/philipp-k%C3%BChn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why?</title>
+      <link>http://localhost:1313/posts/init/</link>
+      <pubDate>Mon, 07 Oct 2024 09:01:36 +0200</pubDate>
+      <guid>http://localhost:1313/posts/init/</guid>
+      <description>&lt;p&gt;This story begins with me wanting to write for my own (and others) a long time ago.&#xA;One may ask&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Why? Writing comes natural, if you sought-after?&amp;rdquo;&#xA;but for me, it never worked. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;To this question I can only give you the following answer.&#xA;I always got caught in some kind of perfectionism, i.e., I never found the right tool for me and then never getting the start.&#xA;Once I tried &lt;a href=&#34;https://gohugo.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt;, but it never was meant to be for me.&#xA;Then I tried to build my own static-site-generator but stopped half-way through and deleted, what I had.&#xA;I never knew, what should be the topic, that I would like to spread to the world.&#xA;I didn&amp;rsquo;t want to give to much details of what I am up to, but wanted to share something.&#xA;Most of the time I wanted to share all the nerdy tech tools I tinkered with, but without a platform to share, it never had been.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
