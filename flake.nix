@@ -3,7 +3,11 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
-    hugo-coder.url = "github:luizdepra/hugo-coder";
+    hugo-coder = {
+      url = "github:luizdepra/hugo-coder";
+      flake = false;
+    };
+    flake-utils.url = "github:numtide/flake-utils";
     systems.url = "github:nix-systems/default";
   };
 
@@ -12,75 +16,36 @@
       self,
       nixpkgs,
       hugo-coder,
-      systems,
+      flake-utils,
       ...
-    }: let
-        eachSystem = nixpkgs.lib.genAttrs (import systems);
-      in {
-        nixosModules.r4ndom-blog =
-          { config, lib }:
-          with lib;
-          let
-            cfg = config.services.r4ndom-blog;
-          in
-          {
-            options.services.r4ndom-blog = {
-              enable = mkEnableOption "Enable blog";
-              domain = mkOption {
-                type = types.str;
-                description = "Domain to use for reverse proxy";
-              };
-            };
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in
+      {
+        formatter = pkgs.nixfmt-rfc-style;
 
-            config = mkIf cfg.enable {
-              environment.systemPackages = [ self.packages.${system}.website ];
-
-              services = {
-                nginx.enable = true;
-                nginx.virtualHosts.${cfg.domain} = {
-                  forceSSL = true;
-                  enableACME = true;
-                  root = "${nixpkgs.r4ndom-blog}/share/hugo";
-                };
-              };
-            };
-          };
-
-        formatter = eachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc);
-
-        packages.default = nixpkgs.stdenv.mkDerivation {
-          pname = "website";
-          version = "1.0.0";
-
-          src = ./audacis;
-
-          buildInputs = [ nixpkgs.hugo ];
-
+        packages.website = pkgs.stdenv.mkDerivation {
+          name = "website";
+          src = self;
+          buildInputs = [ pkgs.hugo ];
           buildPhase = ''
-            mkdir -p ./public
-            hugo --themesDir themes --destination ./public
-          '';
-
-          installPhase = ''
-            mkdir -p $out/share/hugo
-            cp -r ./public/* $out/share/hugo/
-          '';
-
-          preBuild = ''
             mkdir -p themes
-            ln -s ${hugo-coder.outPath} themes/hugo-coder
+            ln -s ${hugo-coder} themes/hugo-coder
+            ${pkgs.hugo}/bin/hugo
           '';
+          installPhase = "cp -r public $out";
         };
 
-        devShells.default = nixpkgs.mkShell {
-          buildInputs = with nixpkgs; [
-            git
+        defaultPackage = self.packages.${system}.website;
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
             hugo
-            nixpkgs-fmt
+            git
           ];
         };
-
-      } // {
-      nixosModules.default = _: { };
-      };
+      }
+    );
 }

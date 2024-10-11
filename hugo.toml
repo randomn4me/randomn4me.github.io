@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = '$HOME'
 theme = "hugo-coder"
 
+enableRobotsTXT = true
+
 [pagination]
   pagerSize = 10
 
@@ -54,10 +56,10 @@ style = "github-dark"
   url = "https://orcid.org/0000-0002-1739-876X"
 
 [[params.social]]
-  name = "ORCID"
-  icon = "fa-solid fa-file-user"
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
   weight = 3
-  url = "https://orcid.org/0000-0002-1739-876X"
+  url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/"
 
 # Menu links
 [[menu.main]]
