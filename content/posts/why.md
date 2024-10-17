@@ -2,11 +2,7 @@
 date = 2024-10-07T09:01:36+02:00
 title = "Why?"
 description = "Why another blog about stuff?"
-slug = ""
 tags = ["writing"]
-categories = []
-externalLink = ""
-series = []
 +++
 
 This story begins with me wanting to write for my own (and others) a long time ago.

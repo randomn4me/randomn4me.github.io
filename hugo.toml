@@ -13,6 +13,7 @@ enableRobotsTXT = true
 [markup.highlight]
 style = "github-dark"
 
+
 [params]
   author = "Philipp Kühn"
   info = "Computer Scientist and Tech Enthusiast"
@@ -37,7 +38,6 @@ style = "github-dark"
   # customJS = ["js/custom.js"]
 
 [taxonomies]
-  category = "categories"
   series = "series"
   tag = "tags"
   author = "authors"
