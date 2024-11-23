@@ -92,6 +92,16 @@ img {
   max-width: 100%;
 }
 
+img.profile {
+  border: 3px solid var(--maincolor);
+    border-radius: 50%;
+
+    max-width: 200px;
+
+    display:block;
+    margin: 50px auto;
+}
+
 figure {
   box-sizing: border-box;
   display: inline-block;

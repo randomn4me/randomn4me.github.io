@@ -29,6 +29,7 @@ read_time = "minute read"
 show_more = "Read more ⟶"
 
 favicon = "/icon/favicon.ico"
+profile = "/images/profile-business.png"
 
 menus = [
     { name = "$HOME", url = "/", weight = 2 },
