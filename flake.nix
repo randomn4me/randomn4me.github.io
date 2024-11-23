@@ -3,23 +3,17 @@
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.archie = {
-    url = "github:XXXMrG/archie-zola";
-    flake = false;
-  };
 
   outputs =
     {
       self,
       nixpkgs,
       flake-utils,
-      archie,
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        themeName = ((builtins.fromTOML (builtins.readFile "${archie}/theme.toml")).name);
       in
       {
         packages.website = pkgs.stdenv.mkDerivation {
@@ -27,10 +21,6 @@
           version = "2024-11-09";
           src = ./.;
           nativeBuildInputs = [ pkgs.zola ];
-          configurePhase = ''
-            mkdir -p "themes/${themeName}"
-            cp -r ${archie}/* "themes/${themeName}"
-          '';
           buildPhase = "zola build";
           installPhase = "cp -r public $out";
         };
@@ -39,9 +29,6 @@
         devShell = pkgs.mkShell {
           packages = [ pkgs.zola ];
           shellHook = ''
-            mkdir -p themes
-            ln -snf "${archie}" "themes/${themeName}"
-
             source <(${pkgs.zola}/bin/zola completion $(basename $SHELL))
           '';
         };

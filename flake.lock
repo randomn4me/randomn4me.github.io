@@ -1,21 +1,5 @@
 {
   "nodes": {
-    "archie": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1709866724,
-        "narHash": "sha256-HTubTJkLLS5l/+yaeN8kFumXnN5CMPgAByNF6B4lV1I=",
-        "owner": "XXXMrG",
-        "repo": "archie-zola",
-        "rev": "92376010fc1ada1d0e1faaf477e5fb62fb76e93e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "XXXMrG",
-        "repo": "archie-zola",
-        "type": "github"
-      }
-    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -52,7 +36,6 @@
     },
     "root": {
       "inputs": {
-        "archie": "archie",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }
