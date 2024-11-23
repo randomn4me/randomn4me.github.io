@@ -1,0 +1,12 @@
+[submodule "themes/feather"]
+	path = themes/feather
+	url = https://github.com/piedoom/feather
+[submodule "themes/anpu-zola-theme"]
+	path = themes/anpu-zola-theme
+	url = https://github.com/zbrox/anpu-zola-theme
+[submodule "themes/terminimal"]
+	path = themes/terminimal
+	url = https://github.com/pawroman/zola-theme-terminimal.git
+[submodule "archie-zola"]
+	path = archie-zola
+	url = https://github.com/XXXMrG/archie-zola

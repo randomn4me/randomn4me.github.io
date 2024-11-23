@@ -1,0 +1,45 @@
+base_url = "https://audacis.net"
+
+title = "Philipp Kühn"
+description = "I'm Philipp and this is my space, where I present my current projects or ideas, discuss what moves me forward or occupies me right now."
+
+compile_sass = true
+
+theme = "archie"
+build_search_index = true
+
+generate_feeds = true
+feed_filenames = [ "rss.xml" ]
+
+taxonomies = [
+    {name = "tags", rss = true},
+]
+
+[markdown]
+highlight_code = true
+bottom_footnotes = true
+
+[extra]
+logo_text = "Philipp is writing"
+logo_home_link = "$HOME"
+copyright = "Philipp Kühn"
+mode = "toggle"
+posted_on = "on"
+read_time = "minute read"
+show_more = "Read more ⟶"
+
+favicon = "/icon/favicon.ico"
+
+menus = [
+    { name = "$HOME", url = "/", weight = 2 },
+    { name = "/posts", url = "/posts", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+]
+
+# config social icon info in the footer
+social = [
+    { icon = "github", name = "GitHub", url = "https://github.com/randomn4me" },
+    { icon = "hard-drive", name = "ORCiD", url = "https://orcid.org/0000-0002-1739-876X" },
+    { icon = "hard-drive", name = "Scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en" },
+    { icon = "linkedin", name = "LinkedIn", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/" },
+]
