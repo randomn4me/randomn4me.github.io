@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-    border-top: 3px dotted var(--maincolor);
+    border-top: 3px dotted var(--linecolor);
 }
 
 code {
@@ -47,32 +47,32 @@ h6 {
 }
 
 h1::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "# ";
 }
 
 h2::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "## ";
 }
 
 h3::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "### ";
 }
 
 h4::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "#### ";
 }
 
 h5::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "##### ";
 }
 
 h6::before {
-    color: var(--darkMaincolor);
+    color: var(--callouctcolor);
     content: "###### ";
 }
 

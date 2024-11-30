@@ -4,6 +4,7 @@
   --callouctcolor: #96587F;
   --hovercolor: #96587F;
   --darkMaincolor: #732054;
+  --linecolor: #AAAAAA;
 }
 
 
@@ -50,12 +51,12 @@ p {
 
 hr {
   border: 0;
-  border-top: 3px dotted var(--bordercl);
+  border-top: 3px dotted var(--linecolor);
   margin: 1em 0;
 }
 
 blockquote {
-  border-left: 3px solid var(--bordercl);
+  border-left: 3px solid var(--linecolor);
   color: #C3C3C3;
   margin: 0;
   padding-left: 1em;
@@ -187,32 +188,32 @@ h6 {
 }
 
 h1::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "# ";
 }
 
 h2::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "## ";
 }
 
 h3::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "### ";
 }
 
 h4::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "#### ";
 }
 
 h5::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "##### ";
 }
 
 h6::before {
-  color: var(--maincolor);
+  color: var(--darkMaincolor);
   content: "###### ";
 }
 
@@ -225,7 +226,7 @@ h6::before {
 footer {
   display: flex;
   align-items: center;
-  border-top: 0.4rem dotted var(--bordercl);
+  border-top: 4px dotted var(--linecolor);
   padding: 2rem 0rem;
   margin-top: 2rem;
 }
@@ -240,7 +241,9 @@ footer {
 }
 
 .footer-info {
+  margin: auto;
   padding: var(--footer-padding);
+  text-align: center;
 }
 
 #main_title {
@@ -289,6 +292,8 @@ article .title {
 .site-description {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  padding: 0px 50px;
 }
 
 .tags li::before {
