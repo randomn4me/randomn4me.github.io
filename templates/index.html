@@ -19,6 +19,13 @@
                     {{ config.description | markdown | safe }}
                 {% endif %}
             </div>
+        <div>
+          {% for social in config.extra.social %}
+              <a class="soc" href={{ social.url }} title={{ social.name }}>
+                        <i class="{{ social.icon }}"></i>
+              </a>
+          {% endfor %}
+        </div>
         </main>
 
         {% endblock main_content %}

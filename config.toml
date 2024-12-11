@@ -1,7 +1,7 @@
 base_url = "https://audacis.net"
 
 title = "Philipp Kühn"
-description = "I'm Philipp and this is my space, where I present my current projects or ideas, discuss what moves me forward or occupies me right now."
+description = "I'm Philipp and this is my space, where I present my current projects or ideas, discuss what moves me forward or occupies me right now"
 
 compile_sass = true
 
@@ -39,8 +39,8 @@ menus = [
 
 # config social icon info in the footer
 social = [
-    { icon = "github", name = "GitHub", url = "https://github.com/randomn4me" },
-    { icon = "hard-drive", name = "ORCiD", url = "https://orcid.org/0000-0002-1739-876X" },
-    { icon = "hard-drive", name = "Scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en" },
-    { icon = "linkedin", name = "LinkedIn", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/" },
+    { icon = "fa fa-linkedin", name = "GitHub", url = "https://github.com/randomn4me" },
+    { icon = "fa fa-linkedin", name = "ORCiD", url = "https://orcid.org/0000-0002-1739-876X" },
+    { icon = "fa fa-linkedin", name = "Scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en" },
+    { icon = "fa fa-linkedin", name = "LinkedIn", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/" },
 ]

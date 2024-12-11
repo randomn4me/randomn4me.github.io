@@ -232,12 +232,13 @@ footer {
 }
 
 .soc {
+  font-family: "FontAwesome";
   display: flex;
   align-items: center;
-  padding-right: 1rem;
+  padding: 2rem;
   margin-right: 1rem;
-  border-right: 2px solid;
   border-bottom: none;
+    font-size:30px;
 }
 
 .footer-info {
