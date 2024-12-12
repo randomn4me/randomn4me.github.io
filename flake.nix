@@ -22,7 +22,11 @@
           src = ./.;
           nativeBuildInputs = [ pkgs.zola ];
           buildPhase = "zola build";
-          installPhase = "cp -r public $out";
+          installPhase = ''
+            mkdir -p $out/var/www
+            ln -s public $out/var/www/audacis-blog
+          '';
+
         };
         defaultPackage = self.packages.${system}.audacis-blog;
         formatter = pkgs.nixfmt-rfc-style;
