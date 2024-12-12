@@ -1,23 +1,35 @@
 base_url = "https://audacis.net"
-
-title = "Philipp Kühn"
-description = "I'm Philipp and this is my space, where I present my current projects or ideas, discuss what moves me forward or occupies me right now"
-
+title = "~/pkuehn"
+description = "I'm Philipp and this is my webspace, where I write about current projects or ideas, discuss what moves me forward, or occupies me right now."
+author = "Philipp"
 compile_sass = true
-
-theme = "archie"
 build_search_index = true
-
 generate_feeds = true
-feed_filenames = [ "rss.xml" ]
+minify_html = true
+default_language = "en"
 
-taxonomies = [
-    {name = "tags", rss = true},
-]
+taxonomies = [{name = "tags", rss = true}]
+
+theme = "tabi"
 
 [markdown]
 highlight_code = true
+highlight_theme = "css"
 bottom_footnotes = true
+smart_punctuation = true
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+# At which character to truncate the content to. Useful if you have a lot of pages and the index would
+# become too big to load on the site. Defaults to not being set.
+# truncate_content_length = 100
+# Wether to produce the search index as a javascript file or as a JSON file.
+# Accepted value "elasticlunr_javascript" or "elasticlunr_json".
+index_format = "elasticlunr_json"
+
 
 [extra]
 logo_text = "Philipp is writing"
@@ -27,20 +39,27 @@ mode = "toggle"
 posted_on = "on"
 read_time = "minute read"
 show_more = "Read more ⟶"
+skin = "lavender"
+# skin = "purple"
 
-favicon = "/icon/favicon.ico"
-profile = "/images/profile-business.png"
+post_listing_index_reversed = true
 
-menus = [
-    { name = "$HOME", url = "/", weight = 2 },
-    { name = "/posts", url = "/posts", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+favicon_emoji = "🧑‍💻"
+
+menu = [
+    { name = "/posts", url = "/posts" },
+    { name = "/now", url = "/now" },
+    { name = "/about", url = "/about" },
 ]
 
-# config social icon info in the footer
-social = [
-    { icon = "fa fa-linkedin", name = "GitHub", url = "https://github.com/randomn4me" },
-    { icon = "fa fa-linkedin", name = "ORCiD", url = "https://orcid.org/0000-0002-1739-876X" },
-    { icon = "fa fa-linkedin", name = "Scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en" },
-    { icon = "fa fa-linkedin", name = "LinkedIn", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/" },
+socials = [
+    { name = "github", url = "https://github.com/randomn4me", icon = "github" },
+    { name = "orcid", url = "https://orcid.org/0000-0002-1739-876X", icon = "orcid" },
+    { name = "scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en", icon = "google-scholar" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/", icon = "linkedin" },
+]
+
+footer_menu = [
+    {url = "about", name = "about", trailing_slash = true},
+    {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
 ]

@@ -7,21 +7,25 @@ This shows a list of books I've read.
 I started writing this list in 2024 and added just a few important books from before then.
 
 
+## Current
+
+- Getting Things Done: The Art of Stress-Free Productivity *(David Allen)* -- Not finished yet
+- The Every -- Not finished yet
 
 ## 2024
 
-- Getting Things Done: The Art of Stress-Free Productivity *(David Allen, ISBN: 978-0-749-92264-1)*
-- Das Zettelkasten-Prinzip. Erfolgreich wissenschaftlich Schreiben und Studieren mit effektiven Notizen *(Sönke Ahrens, ISBN: 978-3-739-37856-5)*
-- Dune *(Frank Herbert, ISBN: 978-0-575-08150-5)*
-- The Every
+- How to Take Smart Notes *(Sönke Ahrens)*
+- Dune *(Frank Herbert)*
 
 ## Before
 
-- Limit
+- Celsius *(Marc Elsberg*) -- Started but not finished
+- Limit *(Frank Schätzing)*
 - Ministry of the Future
-- Zero
-- Blackout
+- Zero *(Marc Elsberg)*
+- Gier *(Marc Elsberg)*
+- Blackout *(Marc Elsberg)*
 - Rethinking Conversation
-- Die Unbewohnbare Erde
+- The Uninhabitable Earth
 - The Circle
-- Der Schwarm
+- Der Schwarm *(Frank Schätzing)*

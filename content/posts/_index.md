@@ -1,5 +1,4 @@
 +++
-template = "posts.html"
-transparent = true
-sort_by = "date"
+title = "Blog"
+paginate_by = 5
 +++

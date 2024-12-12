@@ -16,15 +16,15 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        packages.website = pkgs.stdenv.mkDerivation {
-          pname = "static-website";
+        packages.audacis-blog = pkgs.stdenv.mkDerivation {
+          pname = "audacis-blog";
           version = "2024-11-09";
           src = ./.;
           nativeBuildInputs = [ pkgs.zola ];
           buildPhase = "zola build";
           installPhase = "cp -r public $out";
         };
-        defaultPackage = self.packages.${system}.website;
+        defaultPackage = self.packages.${system}.audacis-blog;
         formatter = pkgs.nixfmt-rfc-style;
         devShell = pkgs.mkShell {
           packages = [ pkgs.zola ];
