@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://audacis.net/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://audacis.net/</loc>
+    </url>
+    <url>
+        <loc>https://audacis.net/about/</loc>
+        <lastmod>2024-11-20</lastmod>
+    </url>
+    <url>
+        <loc>https://audacis.net/books/</loc>
+        <lastmod>2024-12-07</lastmod>
+    </url>
+    <url>
+        <loc>https://audacis.net/now/</loc>
+        <lastmod>2024-12-12</lastmod>
+    </url>
+    <url>
+        <loc>https://audacis.net/posts/</loc>
+    </url>
+    <url>
+        <loc>https://audacis.net/posts/connecttoyourcomputer/</loc>
+        <lastmod>2024-10-16T16:58:56+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://audacis.net/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://audacis.net/posts/why/</loc>
+        <lastmod>2024-07-27</lastmod>
+    </url>
+    <url>
+        <loc>https://audacis.net/tags/</loc>
+    </url>
+    <url>
+        <loc>https://audacis.net/tags/writing/</loc>
+    </url>
+</urlset>
