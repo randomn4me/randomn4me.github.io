@@ -3,6 +3,7 @@ date = 2024-10-16T16:58:56+02:00
 title = "Connect to your computer"
 description = "A short write-up of the importance of keyboard ergonomics."
 tags = [ "writing", "tech", "keyboards" ]
+draft = true
 +++
 
 ![Alt Text](/img/typewriter-keyboard-black.jpg)
