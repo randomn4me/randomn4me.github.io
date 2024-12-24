@@ -3,29 +3,36 @@ title = 'Books'
 date = 2024-12-07
 +++
 
-This shows a list of books I've read.
-I started writing this list in 2024 and added just a few important books from before then.
+This is a list of books that I have read.
+I started compiling this list in 2024 and only included a few books from before that year.
 
 
 ## Current
 
-- Getting Things Done: The Art of Stress-Free Productivity *(David Allen)* -- Not finished yet
-- The Every -- Not finished yet
+- Black Hat Rust *(Sylvain Keykour)*
+- The Art of Attack *(Maxie Reynolds)*
+- The Every *(Dave Eggers)*
 
 ## 2024
 
-- How to Take Smart Notes *(Sönke Ahrens)*
 - Dune *(Frank Herbert)*
+- Getting Things Done: The Art of Stress-Free Productivity *(David Allen)*
+- How to Take Smart Notes *(Sönke Ahrens)*
 
-## Before
+## Earlier
 
-- Celsius *(Marc Elsberg*) -- Started but not finished
+- Blackout *(Marc Elsberg)*
+- Borne *(Jeff VanderMeer)*
+- Celsius *(Marc Elsberg*) -- Started but not finished[^1]
+- Der Schwarm *(Frank Schätzing)*
+- Female Choice *(Meike Stoverock)*
+- Gier *(Marc Elsberg)*
+- Influx *(Daniel Suarez)*
 - Limit *(Frank Schätzing)*
 - Ministry of the Future
-- Zero *(Marc Elsberg)*
-- Gier *(Marc Elsberg)*
-- Blackout *(Marc Elsberg)*
 - Rethinking Conversation
-- The Uninhabitable Earth
 - The Circle
-- Der Schwarm *(Frank Schätzing)*
+- The Uninhabitable Earth
+- Zero *(Marc Elsberg)*
+
+[^1]: The book appears to have a storyline very similar to other Marc Elsberg books. After successfully predicting the next 50 pages and finding that most of it came true (with a few exceptions), I decided to stop reading.
