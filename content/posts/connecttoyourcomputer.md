@@ -1,9 +1,10 @@
 +++
-date = 2024-10-16T16:58:56+02:00
+date = 2024-10-16
 title = "Connect to your computer"
 description = "A short write-up of the importance of keyboard ergonomics."
+
+[taxonomies]
 tags = [ "writing", "tech", "keyboards" ]
-draft = true
 +++
 
 ![Alt Text](/img/typewriter-keyboard-black.jpg)
@@ -15,24 +16,30 @@ But in *"the long run"* it may cost you not just the regular replacement of tool
 As a handyman you might cut yourself because the screwdriver skid down, fall of that instable ladder, or suffer from long-term problems, because you used too much brawn while you instead could just have used a nice hammer drill to drill those holes in the concrete.
 This is one of the reasons, why I think that handymen own those quality tools, they use every day of their lives.
 
-But when we switch professions and look into offices, the whole mindset seems to shift.
-How many of you, when starting a job, went to office on your first day and were greeted not only by your new and friendly colleagues, but also by this black block of plastic, a full-size rubber dome keyboard with that holy QWERTY[^2] layout, and a USB mouse that doesn't even have buttons for your thumb?
-Even when there is scientific evidence, that touch typing on traditional layouts and keyboards is just wrong, we as humans are so used to just do what we know, that it won't change.
-<!-- TODO: add https://journals.sagepub.com/doi/10.1177/001872087201400110 -->
+But when we change professions and enter office settings, the entire mindset appears to shift.
+How many of you, upon starting a new job, arrived at the office on your first day to be greeted not only by your new and friendly colleagues, but also by a black block of plastic, a full-size rubber dome keyboard with the standard QWERTY layout, and a USB mouse lacking thumb buttons? Typing on these layouts can be uncomfortable in the long term.
+In 1932, the [Dvorak keyboard layout](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) was created, which could easily be used with [ANSI keyboard layouts](https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts).
+There are also numerous alternative ergonomic layouts for ISO keyboards.
+The search for an ergonomic physical keyboard layout is ongoing.
+Since 1972, there has been [scientific evidence](https://journals.sagepub.com/doi/10.1177/001872087201400110) indicating that touch typing on traditional physical keyboards is slower and more uncomfortable.
+From what I have gathered, there have always been pioneers in the field working to develop ergonomic keyboards for everyone.
+With the ability to develop and print custom PCBs and keyboard cases, finding the perfect ergonomic keyboard has become a real possibility.
+This greatly expands the options available to find what works best for you as an individual, but it can also lead down a deep rabbit hole.
+And if we consider the fact that our brains are wired to utilize patterns we recognize, switching keyboards and layouts becomes a big hassle.
+Therefore, most people either do not know about other options because they are not exposed to them, or they use what they know due to other obstacles.
 
-For me, this was definitely the case and I didn't know better, until a friend of mine and I got into ergonomic keyboard layouts, specifically [Bone](https://neo-layout.org/Layouts/bone/).
-While he committed to learn Bone, because he wasn't touch typing until then, I stuck with QUERTZ, because I was just that much faster than with Bone.
-But when I saw [this presentation](https://media.ccc.de/v/gpn22-498-tastaturen-ein-drama-mit-10-fingern)[^3] explaining the long term issues with traditional keyboard layouts (and keyboards), I was hooked again and started crawling deeper into this seemingly endless rabbit hole.
-I checked out ergnomic keyboard layouts and because I always liked the ANSI layout a bit more than the ISO layout, I stuck with [Colemak-DH](https://colemakmods.github.io/mod-dh/)
+!["Full size QWERTY keyboard on table with random stuff."](/img/keyboard-full-size-standard.jpg "Full size QWERTY keyboard on table with random stuff.")
 
-![Alt Text]({% set image = resize_image(path="/img/keyboard-full-size-standard.jpg", height=100, op="fit_width" %})
+For me, this was definitely the case until a friend introduced me to Bone, an ergonomic ISO layout designed to replace the German QWERTZ layout.
+While he committed to learning Bone because he wasn't touch typing before, I stuck with QWERTZ because I was faster with it and couldn't spare the mental capacity to learn a new layout.
+This was about two years ago.
+But when I saw [this presentation](https://media.ccc.de/v/gpn22-498-tastaturen-ein-drama-mit-10-fingern)[^3] about 5 months ago, explaining the long term issues with traditional keyboard layouts (and keyboards), I was hooked again and started crawling deeper into this seemingly endless rabbit hole.
+I researched ergonomic keyboard layouts and decided to stick with the [Colemak-DH](https://colemakmods.github.io/mod-dh/) layout.
+I have always preferred the ANSI layout over the ISO layout, but all my laptops are equipped with ISO-Keyboards, so of course there are even technical hurdles to overcome.
 
-<!-- TODO:
-    - Those hurt you in the long run as well but never get discussed
-    - There are way better alternatives and actual science to confirm bad setup (name dvorak, name paper on tenting from the 80s)
-    - Present some keyboard layouts and why they are better
-    - Present some keyboards and why they are better
--->
+Afterward, the dive into potential keyboards was not far away.
+I looked into split keyboards and stuck with the [Corne](https://github.com/foostan/crkbd), as it seemed the easier one to switch to (and it looks sick!), and actually build my first keyboard from scratch.
+But the build guide and more details into the used firmware will be something for another day.
 
 
 [^1]: It probably won't be okay since you need to keep buying the tools you need if they break. So the monetary and time-wise value still needs to be invested all the time.
