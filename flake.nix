@@ -3,17 +3,20 @@
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
+  inputs.tabi = { url = "github:welpo/tabi"; flake = false; };
 
   outputs =
     {
       self,
       nixpkgs,
+      tabi,
       flake-utils,
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        themeName = ((builtins.fromTOML (builtins.readFile "${tabi}/theme.toml")).name);
       in
       {
         packages.audacis-blog = pkgs.stdenv.mkDerivation {
@@ -21,6 +24,10 @@
           version = "2024-11-09";
           src = ./.;
           nativeBuildInputs = [ pkgs.zola ];
+          configurePhase = ''
+            mkdir -p "themes/${themeName}"
+            cp -r ${tabi}/* "themes/${themeName}"
+          '';
           buildPhase = "zola build";
           installPhase = ''
             mkdir -p $out/var/www
@@ -33,7 +40,9 @@
         devShell = pkgs.mkShell {
           packages = [ pkgs.zola ];
           shellHook = ''
-            source <(${pkgs.zola}/bin/zola completion $(basename $SHELL))
+            hello
+            mkdir -p themes
+            ln -ln "${tabi}" "themes/${themeName}"
           '';
         };
       }
