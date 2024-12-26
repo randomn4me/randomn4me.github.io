@@ -9,7 +9,8 @@ I use natural language processing, information retrieval, and data mining method
 As an example, my colleague [Markus Bayer](https://peasec.de/bayer) and I have trained a large language model for the ITSec domain called [CySecBERT](https://dl.acm.org/doi/10.1145/3652594)[^3].
 
 I'm also interested in automating dumb tasks, NixOS (and [using it for all my machines](https://github.com/randomn4me/nix-flakes)), and I love to ride my bike whenever I find the time 🚴
-Besides that, I'm into photography 📷 I usually shoot portraits, nature, or the night sky[^4], and like to get a good [read](/books).
+Besides that, I'm into photography 📷
+I usually shoot portraits, nature, or the night sky[^4], like to [read](/books), play video games, and learn new things.
 
 If you want to contact me, feel free to leave me a [message](mailto:blog@audacis.net).
 

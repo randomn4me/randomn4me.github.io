@@ -1,5 +1,5 @@
 +++
-date = 2024-10-16
+date = 2024-12-24
 title = "Connect to your computer"
 description = "A short write-up of the importance of keyboard ergonomics."
 
