@@ -59,7 +59,7 @@ socials = [
     { name = "linkedin", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/", icon = "linkedin" },
 ]
 
-footer_menu = [
-    {url = "about", name = "about", trailing_slash = true},
-    {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
-]
+# footer_menu = [
+#     {url = "about", name = "about", trailing_slash = true},
+#     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
+# ]

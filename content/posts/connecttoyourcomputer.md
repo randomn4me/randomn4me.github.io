@@ -7,7 +7,7 @@ description = "A short write-up of the importance of keyboard ergonomics."
 tags = [ "writing", "tech", "keyboards" ]
 +++
 
-![Alt Text](/img/typewriter-keyboard-black.jpg)
+![Old four row typewriter with white letters on rounded, black keys.](/img/typewriter-keyboard-black.jpg)
 
 When was the last time some broke down in your home, and you had to call a handyman? And have you peeked into the bags with good quality tools they bring with them? I personally have never seen a handyman who dismisses quality tools to get the job done and here is a guess, why this is: *they just don't want to pay the bill of not using them in the long run*.
 Sure, you can get your job done with shitty tools that may break after some time.
