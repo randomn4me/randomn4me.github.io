@@ -7,7 +7,7 @@ description = "Or 'Using the opportunity to try new programming languages'"
 tags = [ "tech", "programming" ]
 +++
 
-It is this time of the year, where you usually get some spare time, which is either filled with family activities or personal projects, which did not get enough attention over this year.
+It is this time of the year, where you usually have some time to spare, which is either filled with family activities or personal projects.
 When you are into programming you might have heard of the fantastic [Advent of Code](https://adventofcode.com) which is an Advent calendar contain a bunch of small tasks to solve programmatically.
 Some of them even contain mathematical problems, which, when solved, speed up your program tremendously.
 It is similar to [Project Euler](https://projecteuler.net/), but presents new riddles every year, which are wrapped in a small Christmas story, and you can even compete with friends or colleagues on private leaderboards.
