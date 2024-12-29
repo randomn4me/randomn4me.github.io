@@ -42,7 +42,7 @@ show_more = "Read more ⟶"
 skin = "lavender"
 # skin = "purple"
 
-post_listing_index_reversed = true
+# post_listing_index_reversed = true
 
 favicon_emoji = "🧑‍💻"
 
