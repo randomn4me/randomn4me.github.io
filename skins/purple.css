@@ -1,0 +1,1 @@
+:root{--primary-color: #732054}[data-theme=dark]{--primary-color: #950F69}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){--primary-color: #950F69}}
