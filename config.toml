@@ -30,6 +30,8 @@ include_content = true
 # Accepted value "elasticlunr_javascript" or "elasticlunr_json".
 index_format = "elasticlunr_json"
 
+[link_checker]
+internal_level = "warn"
 
 [extra]
 logo_text = "Philipp is writing"
@@ -42,7 +44,8 @@ show_more = "Read more ⟶"
 skin = "lavender"
 # skin = "purple"
 
-# post_listing_index_reversed = true
+
+post_listing_index_reversed = true
 
 favicon_emoji = "🧑‍💻"
 

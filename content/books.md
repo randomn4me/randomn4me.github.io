@@ -11,6 +11,9 @@ I started compiling this list in 2024 and only included a few books from before 
 
 - Black Hat Rust *(Sylvain Keykour)*
 - The Art of Attack *(Maxie Reynolds)*
+
+## 2025
+
 - The Every *(Dave Eggers)*
 
 ## 2024
