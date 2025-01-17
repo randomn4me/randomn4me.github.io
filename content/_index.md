@@ -5,6 +5,7 @@ title = "Latest posts"
 header = {title = "Hi, I'm Philipp", img = "img/profile-business.png", img_alt = "Profile picture" }
 section_path = "posts/_index.md"
 max_posts = 5
+sort_by = "date"
 +++
 
 I'm a computer scientist who is fascinated by processes and how to find the needle in the haystack.
