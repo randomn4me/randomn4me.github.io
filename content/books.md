@@ -1,6 +1,5 @@
 +++
 title = 'Books'
-date = 2024-12-07
 +++
 
 This is a list of books that I have read.
@@ -10,10 +9,13 @@ I started compiling this list in 2024 and only included a few books from before 
 ## Current
 
 - Black Hat Rust *(Sylvain Keykour)*
-- The Art of Attack *(Maxie Reynolds)*
+- Cracking the Coding Interview *(Gayle Laakmann McDowell)*
+- How to Win Friends and Influence People *(Dale Carnegie)*
 
 ## 2025
 
+- Martin Luther King *(Claudia Mocek)*
+- The Art of Attack *(Maxie Reynolds)*
 - The Every *(Dave Eggers)*
 
 ## 2024
@@ -38,4 +40,4 @@ I started compiling this list in 2024 and only included a few books from before 
 - The Uninhabitable Earth
 - Zero *(Marc Elsberg)*
 
-[^1]: The book appears to have a storyline very similar to other Marc Elsberg books. After successfully predicting the next 50 pages of Celsius and finding that most of it came true, I decided to stop reading it.
+[n1]: The book appears to have a storyline very similar to other Marc Elsberg books. After successfully predicting the next 50 pages of Celsius and finding that most of it came true, I decided to stop reading it.
