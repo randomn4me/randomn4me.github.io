@@ -5,10 +5,10 @@ date = 2024-12-24
 
 ## Now
 
-I'm currently looking for jobs in the tech industry (Europe and U.S.), so if you know someone who is open for a chat, I would really appreciate it!
-Just contact me on [LinkedIn](https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/) or via [mail](mailto:blog@audacis.net).
+I'm currently looking for jobs in the tech industry.
+If you know somebody working in the field of information retrieval, who is interested in somebody, with by profile, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/) or via [mail](mailto:blog@audacis.net), or link this person to me directly.
 
 Besides that, I am 
-- preparing the ArXiV submissions for two of my papers so that I can publish my dissertation immediately after the defense
-- drafting my findings for the synopsis
-- looking into retrieval augmented generation (RAG)
+- finalizing the RAG system for our research group
+- finalizing my dissertation defense
+- preparing the publication of my dissertation
