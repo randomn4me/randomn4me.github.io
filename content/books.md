@@ -40,4 +40,4 @@ I started compiling this list in 2024 and only included a few books from before 
 - The Uninhabitable Earth
 - Zero *(Marc Elsberg)*
 
-[n1]: The book appears to have a storyline very similar to other Marc Elsberg books. After successfully predicting the next 50 pages of Celsius and finding that most of it came true, I decided to stop reading it.
+[^1]: The book seemed to share a storyline remarkably similar to other works by Marc Elsberg. After successfully predicting the next 50 pages of Celsius (on page 150) with most of it coming true, I decided to stop reading.
