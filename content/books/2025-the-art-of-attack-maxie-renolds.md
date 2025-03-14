@@ -1,8 +1,7 @@
 +++
-title = "The Art of Attack (Maxie Reynolds) -- Notes"
+title = "Notes: The Art of Attack (Maxie Reynolds)"
 date = 2025-01-06
 +++
 
-Classic social engineering book.
-If you are into this, it's worth reading.
-But if not, and you already read a book like this, e.g., *Social Engineering: The Science of Human Hacking* by Christopher Hadnagy, you might skip it.
+A classic social engineering book is worth reading for those interested in the subject.
+However, if you've already read a comparable title, such as "Social Engineering: The Science of Human Hacking" by Christopher Hadnagy, and are already satisfied, what you know, you may choose to skip this one.

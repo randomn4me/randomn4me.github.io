@@ -15,7 +15,7 @@ I started compiling this list in 2024 and only included a few books from before 
 ## 2025
 
 - Martin Luther King *(Claudia Mocek)* -- [Notes](/books/2025-martin-luther-king-claudia-mocek)
-- The Art of Attack *(Maxie Reynolds)*
+- The Art of Attack *(Maxie Reynolds)* -- [Notes](/books/2025-the-art-of-attack-maxie-renolds)
 - The Every *(Dave Eggers)*
 
 ## 2024
