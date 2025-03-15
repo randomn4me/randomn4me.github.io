@@ -59,7 +59,7 @@ socials = [
     { name = "github", url = "https://github.com/randomn4me", icon = "github" },
     { name = "orcid", url = "https://orcid.org/0000-0002-1739-876X", icon = "orcid" },
     { name = "scholar", url = "https://scholar.google.com/citations?user=yEOvWXAAAAAJ&hl=en", icon = "google-scholar" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/philipp-k%C3%BChn-724a7a320/", icon = "linkedin" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/ph-kuehn/", icon = "linkedin" },
 ]
 
 # footer_menu = [
